@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I also Love you 2 ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+<style>
+body{
+  background: linear-gradient(180deg,#ff6b81,#ffd166);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+h1{
+  font-size: 56px;
+  animation: pop 1s ease forwards;
+}
+@keyframes pop {
+  0%{transform: scale(0);}
+  80%{transform: scale(1.1);}
+  100%{transform: scale(1);}
+}
+.heart{
+  position: absolute;
+  font-size: 24px;
+  animation: float 5s linear infinite;
+}
+@keyframes float {
+  from{transform: translateY(0); opacity:1;}
+  to{transform: translateY(-800px); opacity:0;}
+}
+</style>
+</head>
+<body>
+  <h1>I Love  You CUTIEE MERI DILRUBA  ❤️</h1>
+  <h4>Mai koi shayar to nahi but kuch likha hai tumhare liye <h4>
+    <p>💕</p>
+  <p>Yuu tughse preet laga baitha hu ....
+Ki tugh pr sab kuch waar baitha hu .. na gawara tha jisko apna naam ...ek tere naaam se preet laga baitha h.. ...Manzil ki talash me yu bhatak rha tha tanha sa ..ki tughko hi apni manzil maan baitha hU...sochta hu jis din tu mil jayegi mughe pure jahan ki khushi mil jayegi.... 
+.
+.
+
+2.Ki Mai tumse milne ka koi bhana chata hu.....mai tughe apna haal batana chata hu...pata nhi akhir wo din kab ayyega jab mai bithuga tere rubharuh💑💑....or Tugh ko sukoon se apne  gale laga  laa puuga...💕💕😍😍
+
+
+
+Bas itna samajh lo…
+tum mere liye khass ho aur hamesha khass rhogi .... ab tum koi simple si ladki nhi rahi ho ab tum kisi ki jaan ban gyi ho 💕</p>
+    <footer>
+  <p>© 2025 Made with 💕 by PRASHANT YADAV</p>
+</footer>
+
+  
+
+<script>
+function createHeart(){
+  const heart = document.createElement('div');
+  heart.classList.add('heart');
+  heart.innerText = ['❤️','💖','💕','💘','💞'][Math.floor(Math.random()*5)];
+  heart.style.left = Math.random() * 100 + 'vw';
+  heart.style.animationDuration = (3 + Math.random()*3) + 's';
+  document.body.appendChild(heart);
+  setTimeout(()=>heart.remove(),5000);
+}
+setInterval(createHeart,200);
+</script>
+</body>
+</html>
+
+AQ
